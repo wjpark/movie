@@ -1,0 +1,35 @@
+#homepage {
+	background-color: black;
+  background: url("movie_theatre.jpg") no-repeat center center fixed; 
+	background-size: cover;
+}
+
+#searchbox {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.dots{
+  min-width:10em;
+  position:relative;
+  bottom:4px;
+ 	border-bottom:1px dotted #777;   
+}
+
+.box {
+	border: 2px solid #dddddd;
+	margin:30px auto;
+	border-radius: 2px;
+	background-color: white;
+	box-shadow: 0 5px 4px -2px #7c7c7c;
+	width: 650px;
+}
+
+#title {
+	font-size: 80px;
+	font-family: "Lobster";
+	font-weight: 500;
+	color: white;
+	text-align: center;
+	margin-bottom: 30px;
+}

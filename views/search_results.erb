@@ -1,0 +1,24 @@
+<div class="box">
+<table class="table">
+<tr colspan="2">
+	Which one are you looking for?
+</tr>
+<tr>
+	<th>Title</th>
+	<th>Year</th>
+</tr>
+<% @list["Search"].each do |movie| %>
+	<tr>
+		<td>
+			<a href="/search-results/<%= movie["imdbID"] %>">
+			<%= movie["Title"] %>
+			</a>
+		</td>
+		<td>
+			<%= movie["Year"] %>
+		</td>
+	</tr>
+<% end %>
+
+</table>
+</div>
